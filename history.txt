@@ -1,4 +1,4 @@
- 4846  grep France,2019,PHP wilders.csv > php_france_2019.csv 
+ 4846  grep -wc France,2019,PHP wilders.csv > php_france_2019.csv 
  4847  grep -Ei 'toulouse|biarritz' wilders.csv | grep -Ei 'Javascript' > javascript_biarritz_toulouse.csv
  4848  history | tail -n 2 > history.txt 
  4849  ls
